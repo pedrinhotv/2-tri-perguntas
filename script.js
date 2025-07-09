@@ -15,36 +15,7 @@ const perguntas = [
             {
                 texto: "Comprador(a) Impulsivo(a)!",
                 afirmacao: "Vocẽ se sente atraído(a) por ofertas e muitas vezes compra mais do que planejava, especialmente itens que talvez não use antes que estraguem. Sua geladeira e despensa podem ter alguns 'tesouros escondidos' que você esqueceu."
-            }:root{
-    --cor-fundo: hsl(208, 86%, 63%) ;
-    --cor-principal: #8ac6ed ;
-    --cor-secundaria: #747686; 
-    --cor-destaque: #30247e;
-    --cor-texto: #090a0a;
-
-}
-
-body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.caixa-principal{
-    background-color: var(--cor-principal);
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
-}
-
-h1{
-    color: var(--cor-destaque);
-}
-
+            }
         ]
     },
     {
@@ -71,36 +42,7 @@ h1{
                 texto: "Descartador(a) Rápido(a).",
                 afirmacao: "Você tende a jogar fora o alimentos que estão perto do vencimento por preucação,mesmo que ainda pareça bons para consumo."
             }
-        ]:root{
-    --cor-fundo: hsl(208, 86%, 63%) ;
-    --cor-principal: #8ac6ed ;
-    --cor-secundaria: #747686; 
-    --cor-destaque: #30247e;
-    --cor-texto: #090a0a;
-
-}
-
-body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.caixa-principal{
-    background-color: var(--cor-principal);
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
-}
-
-h1{
-    color: var(--cor-destaque);
-}
-
+        ]
     },
     {
         enunciado: "Como você lida com frutas,legumes e verduras que não estão perfeitos?",
